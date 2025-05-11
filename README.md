@@ -3,8 +3,6 @@
 Ce dépôt contient la première partie d'un projet en deux volets, portant sur deux méthodes indépendantes d'optimisation de la génération de texte par modèles de langage.
 Cette première partie implémente un système **RAG (Retrieval-Augmented Generation)**, qui permet de répondre à des questions à partir d’un document PDF, en combinant recherche sémantique et génération de texte.
 
-La seconde partie du projet portera sur la méthode **RLHF (Reinforcement Learning from Human Feedback)**, qui sera étudiée séparément, avec d'autres modèles, d'autres données, et une approche distincte.
-
 
 ## 🌟 Objectif de cette partie (RAG)
 
@@ -15,7 +13,7 @@ L’objectif est de permettre à un système de génération automatique de rép
 3. Embedding des passages avec un modèle `SentenceTransformer`.
 4. Indexation vectorielle via FAISS.
 5. Recherche sémantique des passages les plus pertinents.
-6. Génération de réponse avec un modèle de type T5.
+6. Génération de réponse avec un modèle de type flan-T5-base.
 
 
 
@@ -60,7 +58,7 @@ Le script effectuera les opérations suivantes :
 
 * 📁 **Extrait** le texte depuis le fichier PDF.
 * ✂️ **Découpe** le texte en paragraphes courts (\~200 caractères max).
-* 🔢 **Crée** des embeddings vectoriels à partir de ces paragraphes.
+* 🔢 **Crée** des représentation vectoriels à partir de ces paragraphes.
 * 🔎 **Effectue** une recherche sémantique à partir d'une question utilisateur.
 * 🧠 **Génère** une réponse à partir du contexte le plus pertinent.
 
