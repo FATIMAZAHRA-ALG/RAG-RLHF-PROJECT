@@ -2,7 +2,7 @@
 
 Vous pouvez regarder une démonstration de ce projet en vidéo ici :
 
-👉 [Voir la vidéo de présentation](videos/demo.mp4)
+👉 [Voir la vidéo de présentation](videos/Explication_Du_Projet(RAG,RLHF).mp4)
 
 # 📚 Partie 1 : RAG - Retrieval-Augmented Generation
 
