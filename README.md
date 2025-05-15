@@ -1,3 +1,9 @@
+## 🎥 Présentation vidéo
+
+Vous pouvez regarder une démonstration de ce projet en vidéo ici :
+
+👉 [Voir la vidéo de présentation](videos/demo.mp4)
+
 # 📚 Partie 1 : RAG - Retrieval-Augmented Generation
 
 Ce dépôt contient la première partie d'un projet en deux volets, portant sur deux méthodes indépendantes d'optimisation de la génération de texte par modèles de langage.
